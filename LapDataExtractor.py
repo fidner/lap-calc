@@ -26,18 +26,16 @@ with open(fileName, "r") as file:
             i += 1
         i += 1
 
-x = input("How much gems do your league stamina refills cost?\n")
-y = input("How much gems do you earn upon completing your league battles?\n")
-z = input("How many league battles do you get per set?\n")
+x = int(input("How much gems do your league stamina refills cost?\n"))
+y = int(input("How much gems do you earn upon completing your league battles?\n"))
+z = int(input("How many league battles do you get per set?\n"))
 
-gemCost += (95(x-y))/z # very very rough estimate of how much extra gems you'll spend on leagues
+gemCost += int((95 * (x - y)) / z) # very very rough estimate of how much extra gems you'll spend on leagues
 
 print(f"ESTIMATED TOTAL GEM COST: {gemCost}")
 print(f"ESTIMATED TOTAL TIME TAKEN: {timeTaken} minutes")
-
-print(f"\nLEFTOVER TIME: {15840 - timeTaken}")  # rough estimate of how much leftover time you'll have, if its in the negatives you need to gem more
-print(f"AVERAGE WASTED TIME ALLOWED PER DAY: {(15840-timeTaken)/11}")
-
+print(f"\nLEFTOVER TIME: {15840 - timeTaken} minutes")  # rough estimate of how much leftover time you'll have, if its in the negatives you need to gem more
+print(f"AVERAGE WASTED TIME ALLOWED PER DAY: {int((15840-timeTaken)/11)} minutes")
 
 
 """
