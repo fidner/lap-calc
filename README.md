@@ -19,7 +19,7 @@ it'll save into your txt file once you're done, so you can edit your data direct
 
 you'll be given the extracted data after adding the data, but you have to use LapDataExtractor.py to extract the data out of your txt file afterwards
 
-# LAPDATA'S TXT FILE'S FORMAT:
+# lapdata's format:
 [LapNumber]         <-- only remove laps that you don't want to include in the calculation (i.e. remove 47-49 if you're going to stop at lap 47 / remove laps 1-20 if you're already at lap 21)\
 [NewLine]\
 [GemCost]           <-- total amount of gems you'll spend on a single lap\
