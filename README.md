@@ -18,6 +18,7 @@ run the code
 sit for an eternity typing up the amount of gems you'll spend per lap and the time it'll take to complete said lap (ditlep will help / #guides in official dc server)
 
 it'll save into your txt file once you're done, so you can edit your data directly from the txt file if the gem cost / time taken is too high
+
 you'll be given the extracted data after adding the data, but you have to use LapDataExtractor.py to extract the data out of your txt file afterwards
 
 trench solos
