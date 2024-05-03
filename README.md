@@ -18,3 +18,11 @@ sit for an eternity typing up the amount of gems you'll spend per lap and the ti
 it'll save into your txt file once you're done, so you can edit your data directly from the txt file if the gem cost / time taken is too high
 
 you'll be given the extracted data after adding the data, but you have to use LapDataExtractor.py to extract the data out of your txt file afterwards
+
+# LAPDATA'S TXT FILE'S FORMAT:
+[LapNumber]     <-- only remove laps that you don't want to include in the calculation (i.e. remove 47-49 if you're going to stop at lap 47 / remove laps 1-20 if you're already at lap 21)
+[NewLine]
+[GemCost]       <-- total amount of gems you'll spend on a single lap
+[TimeTaken]     <-- total amount of time you'll spend on a single lap (in minutes)
+[NewLine]
+[NewLine]
