@@ -7,9 +7,10 @@ endLap = int(input("What lap are you stopping at?\n"))
 with open('LapData.txt', 'w') as file:
     for i in range(startLap, endLap):
         file.write(f"{i}\n")
+        print(f"\nLAP: {i}")
         gemCost = int(input("TOTAL GEM COST: "))
         timeTaken = int(input("TOTAL TIME SPENT: "))
-        file.write(f"{gemCost}")
+        file.write(f"{gemCost}\n")
         file.write(f"{timeTaken}\n\n")
         totalGemCost += gemCost
         totalTimeTaken += timeTaken
@@ -22,5 +23,5 @@ gemCost += int((95 * (x - y)) / z) # very rough estimate of how much extra gems 
 
 print(f"ESTIMATED TOTAL GEM COST: {gemCost}")
 print(f"ESTIMATED TOTAL TIME TAKEN: {timeTaken} minutes")
-print(f"\nLEFTOVER TIME: {15840 - timeTaken} minutes")  # rough estimate of how much leftover time you'll have, if it's in the negatives you need to gem more
-print(f"AVERAGE WASTED TIME ALLOWED PER DAY: {int((15840-timeTaken)/11)} minutes")
+print(f"\nLEFTOVER TIME: {14400 - timeTaken} minutes")  # rough estimate of how much leftover time you'll have, if it's in the negatives you need to gem more
+print(f"AVERAGE WASTED TIME ALLOWED PER DAY: {int((14400-timeTaken)/11)} minutes")
