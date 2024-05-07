@@ -25,7 +25,7 @@ you'll be given the extracted data after adding the data, but you have to use La
 [GemCost]           <-- total amount of gems you'll spend on a single lap\
 [TimeTaken]         <-- total amount of time you'll spend on a single lap (in minutes)\
 [NewLine]\
-[NewLine]\
+[NewLine]
 
 For example:
 -------
